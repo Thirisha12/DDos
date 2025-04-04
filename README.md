@@ -27,7 +27,7 @@ Python Version: Python 3.10, which is pre-installed in Colab, providing compatib
 
 - *Matplotlib Seaborn (optional):* These libraries are available for data visualization, useful for visual analysis of traffic patterns or prediction results.
 
-*3. Environment-Specific Tools:*
+### *3. Environment-Specific Tools:*
 
 Google Colab GPUs/TPUs: The code is compatible with Colab’s hardware accelerators like GPUs or TPUs, which can be activated to speed up computations, particularly for large datasets.
 
