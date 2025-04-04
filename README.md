@@ -5,28 +5,27 @@
 ### *DDoS dataset 2 :* https://www.kaggle.com/datasets/aikenkazin/ddos-sdn-dataset
 
 # 4.b Software and Hardware requirements
-Software Specifications
+**Software Specifications**
 The entire implementation, training, and evaluation of this project are performed
 on Google Colab, leveraging its cloud-based environment. Below are the specific
 software components and libraries used:
 ### *1. Platform:* Google Colab
-Environment: Linux-based virtual environment (typically running Ubuntu,
-although this is abstracted within Colab’s setup).
-Python Version: Python 3.10, which is pre-installed in Colab, providing
-compatibility with machine learning and data science libraries.
+Environment: Linux-based virtual environment (typically running Ubuntu, although this is abstracted within Colab’s setup).
+
+Python Version: Python 3.10, which is pre-installed in Colab, providing compatibility with machine learning and data science libraries.
 
 ### *2. Libraries Frameworks:*
-*Pandas:* Essential for data manipulation and analysis. Used to load, clean, and preprocess data from multiple Nodes, specifically for reading CSV files and structuring data for model input and analysis.
+- *Pandas:* Essential for data manipulation and analysis. Used to load, clean, and preprocess data from multiple Nodes, specifically for reading CSV files and structuring data for model input and analysis.
 
-*Scikit-Learn:* Used for machine learning evaluation metrics and model training. Specifically, accuracy score from Scikit-Learn calculates the accuracy of the aggregated model and correlation analysis is applied for potential stacking or additional classification.
+- *Scikit-Learn:* Used for machine learning evaluation metrics and model training. Specifically, accuracy score from Scikit-Learn calculates the accuracy of the aggregated model and correlation analysis is applied for potential stacking or additional classification.
 
-*Flask:* A lightweight Python web framework used to build and deploy backend APIs. In this project, it facilitates communication between federated Nodes and the server by exposing RESTful endpoints for model updates, predictions, and aggregations.
+- *Flask:* A lightweight Python web framework used to build and deploy backend APIs. In this project, it facilitates communication between federated Nodes and the server by exposing RESTful endpoints for model updates, predictions, and aggregations.
 
-*Google Colab Integration Tools:* drive.mount(’/content/drive’): This allows seamless access to Google Drive, where datasets are stored, providing persistent storage across sessions.
+- *Google Colab Integration Tools:* drive.mount(’/content/drive’): This allows seamless access to Google Drive, where datasets are stored, providing persistent storage across sessions.
 
-*NumPy:* For handling numerical operations and assisting in efficient computation during data transformations.
+- *NumPy:* For handling numerical operations and assisting in efficient computation during data transformations.
 
-*Matplotlib Seaborn (optional):* These libraries are available for data visualization, useful for visual analysis of traffic patterns or prediction results.
+- *Matplotlib Seaborn (optional):* These libraries are available for data visualization, useful for visual analysis of traffic patterns or prediction results.
 
 *3. Environment-Specific Tools:*
 
